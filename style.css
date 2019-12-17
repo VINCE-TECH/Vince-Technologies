@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #35424a;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
+    min-width: 100%;
+
+}
+/*GLOBAL*/
+.container{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+/*header*/
+header{
+    text-align: center;
+    height: 85px;
+    background: #13101098;
+    margin-top: 0px;
+    border-radius: 1px;
+    max-width: 1279px;
+    opacity: .8;
+    padding-top: 20px;
+    min-height: 70px;
+    border-bottom: #e8491d 2px solid;
+
+    
+}
+.logo-text{
+    float: left;
+    margin: 0;
+    color: rgb(63, 189, 63);
+    margin-top: -2px;
+    margin-left: 100px;
+}
+span{
+    color: rgba(255, 255, 255, 0.993);
+   
+}
+p{
+    margin-left: 32%;
+    margin-top: -15px;
+}
+.nav{
+    padding: 0;
+    margin: 0;
+    float: right;
+    margin-top: 20px;
+}
+
+.nav li{
+    float: left;
+    padding: 0 20px 0 20px ;
+    list-style: none;
+   
+}
+
+.nav li a{
+    text-decoration: none;
+    color: dimgray;
+    font-size: 16px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.current{
+    color: yellow;
+    font-weight: bold;
+}
+.nav li a:hover{
+    background: #ffffff;
+    transition: .5s ease-out;
+    color: #e8491d;
+    
+}
+/*--//header ends*/
+/*IMAGE*/
+.image{
+  
+    width: 100%;        
+    
+    
+}
+
+.image img{
+    width: 100%;
+    height: 400px;
+    display: block; /* remove extra space below image */
+    border-bottom: #e8491d 3px solid;
+}
+/*BOXES*/
+#boxes{
+    margin-top: 0;
+    width: 100%;
+   
+}
+
+#boxes .box{
+    float: left;
+    width: 30%;
+    padding: 21px;
+    text-align: center;
+    background-color: #ffffff;
+    color: rgb(53, 52, 52);
+}
+
+#boxes .box img{
+    width: 75px;
+}
+
+
+
+/*--FOOTER--*/
+footer{
+    padding: 20px;
+    margin-top: 0;
+    color: #ffffff;
+    background-color:#13101098;
+    text-align: center;
+    
+   
+}
+.footer--text
+.footer--title
+.footer--Link{
+  color: #aaaaaa;
+  padding: 3px 15px;
+  display: block;
+}
+.footer--hr{
+  height: 2px;
+  border: none;
+  background: #f7f5f5;
+
+}
+#boxes .box2{
+    float: left;
+    width: 33.3%;
+    padding: 0;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 15px;
+   
+  
+}
+
+.footer--title{
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #39ca74;
+}
+.footer--Link{
+  text-decoration: none;
+  display: flex;
+  color: rgb(255, 255, 255);
+}
+.footer--Link:hover{
+  color: rgb(128, 128, 128);;
+  background: rgba(128, 128, 128, 0.411);
+}
+#content {
+  background: #a4daeb;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+}
+ h2{
+  text-align: center;
+  color: #2bb160e5;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width:1200px) {
+    header{
+      margin: 20px;
+    }
+    .footer--section{ width: 50%}
+    .links{
+      width: 50%;
+    }
+    
+  }
+  @media screen and (max-width:768px) {
+    .menu-toggle{
+      display: block;
+      width: 40px;
+      height: 40px;
+      margin: 10px;
+      float: right;
+      cursor: pointer;
+      text-align: center;
+      font-size: 30px;
+      color: #069370;
+      
+    }
+    .menu-toggle:before{
+      content: '\f0c9';
+      font-family: fontAwesome;
+      line-height: 40px;
+    }
+    .menu-toggle.active:before{
+      content: '\f00d';
+  
+    }
+    nav{
+      display: none;
+    }
+    nav.active{
+      display:block;
+      width: 100%;
+    }
+    nav.active ul{
+      display: block;
+    }
+    nav.active ul li a{
+      margin: 0;
+  
+    }
+    
+  
+    }
+    .footer--section{ width: 50%} 
+    .links {
+      position: absolute;
+      right: 0px;
+      height: 50vh;
+      top: 8vh;
+      background-color: #282828;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 30%;
+      transform: translateX(100%);
+     
+    }
+    
