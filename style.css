@@ -27,9 +27,8 @@ ul{
     margin: 0;
     padding: 0;
 }
-h3{
- color: #ffffff;
-}
+
+
 /*header*/
 header{
     text-align: center;
@@ -96,7 +95,7 @@ p{
 /*SLIDER*/
 #slider{
   overflow: hidden;
-  height: 400px;
+  height: 475px;
   
   
 }
