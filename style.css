@@ -233,12 +233,14 @@ footer{
 
 /* MEDIA QUERRIES*/
 @media(max-width: 768px){
-  header,
-  .branding,
-  .nav li a{
+
+  .branding{
     float: none;
     text-align: center;
-    width: 100%;
+    width: 60%;
+    margin-bottom: -60px;
+    margin-left: -100px;
+    
   }
   #boxes .box {
     float: none;
@@ -246,15 +248,22 @@ footer{
     width: 100%;
     padding: 0;
     margin: 0;
+    padding-top: 15px;
+   
   }
   header{
     padding-bottom: 20px;
     height: auto;
   }
-  
+  .nav li a{
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding-bottom: 0;
+  }
   #slider{
-   margin-bottom: -1px;
-   max-height: 200px;
+   margin-bottom: px;
+   max-height: 340px;
    
    overflow: hidden;
   }
