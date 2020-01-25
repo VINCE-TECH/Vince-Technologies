@@ -39,6 +39,14 @@ ul{
   color: black;
   background: white;
 }
+.light{
+  padding: 15px;
+  background: #e0d8d869;
+  color: #242525f3;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+}
 
 /*header*/
 header{
@@ -48,7 +56,7 @@ header{
     margin-top: 0px;
     border-radius: 1px;
     max-width: 1279px;
-   
+    
     padding-top: 20px;
     min-height: 70px;
     border-bottom: #e8491d 2px solid;
@@ -186,6 +194,12 @@ aside#sidebar{
   margin-top: 10px;
   margin-right: 1%;
 }
+aside#sidebar2{
+  overflow: hidden;
+}
+aside#firstbar{
+  margin-bottom: 59px;
+}
 /*..MAIN-COL..*/
 article#main-col{
   float: left;
@@ -195,6 +209,16 @@ article#main-col{
 }
 .page-title{
   font-size: 1.5rem;
+}
+
+/*--MIDDLEBAR--*/
+aside#middlebar{
+max-height: 670px;
+margin-bottom: 15.5px;
+}
+/*--IFRAMES--*/
+.iframe{
+  margin-left: -5px;
 }
 /*--FOOTER--*/
 footer{
