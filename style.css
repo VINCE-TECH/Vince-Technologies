@@ -326,10 +326,26 @@ footer{
   }
   .nav li a,
   .box,
-  #boxes .box2 {
+  #boxes .box2,
+  .light{
     text-align: center;
     float: none;
     width: 100%;
+  
+}
+#boxes .box #firstbar,
+#boxes .box #middlebar,
+#boxes .box #sidebar2{
+  margin-bottom: -10px;
+  width: 100%;
+  float: none;
+  margin-top: -23px;
+  padding-bottom: 0;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+}
+
 }
 header{
   padding-bottom: 20px;
