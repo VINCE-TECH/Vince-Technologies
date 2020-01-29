@@ -46,6 +46,7 @@ ul{
   margin-top: 10px;
   margin-bottom: 10px;
   text-align: left;
+  min-height:457px;
 }
 
 /*header*/
@@ -101,6 +102,7 @@ p{
     border-radius: 5px;
     text-transform: uppercase;
     padding: 20px;
+   
     
 }
 .current{
@@ -196,9 +198,10 @@ aside#sidebar{
 }
 aside#sidebar2{
   overflow: hidden;
+  margin-bottom: 47.5px;
 }
 aside#firstbar{
-  margin-bottom: 59px;
+  margin-bottom: 57.5px;
 }
 /*..MAIN-COL..*/
 article#main-col{
@@ -213,8 +216,8 @@ article#main-col{
 
 /*--MIDDLEBAR--*/
 aside#middlebar{
-max-height: 670px;
-margin-bottom: 15.5px;
+max-height: 677px;
+margin-bottom: 57.5px;
 }
 /*--IFRAMES--*/
 .iframe{
