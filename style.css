@@ -56,7 +56,7 @@ header{
     background: rgb(253, 253, 253);
     margin-top: 0px;
     border-radius: 1px;
-    max-width: 1279px;
+    width: auto;
     
     padding-top: 20px;
     min-height: 70px;
@@ -101,9 +101,7 @@ p{
     font-size: 16px;
     border-radius: 5px;
     text-transform: uppercase;
-    padding: 20px;
-   
-    
+    padding: 20px;    
 }
 .current{
   color: #e8491d;
@@ -177,7 +175,7 @@ p{
 
 #boxes .box{
     float: left;
-    width: 30%;
+    width: 30.2%;
     padding: 21px;
     text-align: center;
     background-color: #ffffff;
@@ -321,13 +319,14 @@ footer{
    overflow: hidden;
   }
 }
-@media screen and (max-width: 380px){
+@media screen and (max-width: 525px){
   .branding{
     float: none;
     margin-left: auto;
     margin-bottom: -20px;
+    width: 100%;
   }
-  .nav li a,
+  
   .box,
   #boxes .box2,
   .light{
@@ -348,7 +347,18 @@ footer{
   overflow: hidden;
   text-align: center;
 }
-
+article#main-col,
+aside#sidebar{
+  margin-bottom: -8px;
+  width: 100%;
+  float: none;
+  margin-top: px;
+  padding-bottom: 0;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+  margin-left: inherit;
+}
 
 header{
   padding-bottom: 20px;
@@ -356,10 +366,15 @@ header{
   
 }
 #slider{
-  margin-bottom: -1px;
+  margin-bottom: -38px;
   max-height: 200px;
   
   overflow: hidden;
 }
-
+.nav li a{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  
+}
 }
